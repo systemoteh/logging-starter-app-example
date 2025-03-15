@@ -1,0 +1,11 @@
+logging:
+  http:
+    enabled: true             # Включить логирование
+    level: INFO               # Уровень детализации (INFO, DEBUG, TRACE)
+    include-headers: true     # Включать заголовки
+    include-body: true        # Включать тело запросов/ответов
+
+logging.level.root: INFO
+logging.level.org.springframework: INFO
+logging.level.org.springframework.web: INFO
+logging.pattern.console: '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
