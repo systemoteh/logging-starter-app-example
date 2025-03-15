@@ -16,7 +16,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-parent:3.4.3'
     implementation 'org.springframework.boot:spring-boot-starter-web:3.4.3'
 
-    implementation 'ru.systemoteh:logging-starter:1.9'
+    implementation 'ru.systemoteh:logging-starter:1.10'
 
     compileOnly 'org.projectlombok:lombok:1.18.36'
     annotationProcessor 'org.projectlombok:lombok:1.18.36'
